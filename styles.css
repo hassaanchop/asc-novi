@@ -14,7 +14,7 @@
   --color-text:         #1A1A1A;
   --color-text-muted:   #5a6272;
   --color-border:       #e2e8f0;
-  --color-nav-height:   80px;
+  --color-nav-height:   96px;
 
   --font-body:    'Inter', system-ui, sans-serif;
   --font-heading: 'Playfair Display', Georgia, serif;
@@ -174,7 +174,7 @@ p  { font-size: 1rem; }
 }
 .nav-logo-img {
   display: block;
-  height: 56px;
+  height: 72px;
   width: auto;
 }
 .nav-links {
