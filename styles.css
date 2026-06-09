@@ -463,6 +463,11 @@ p  { font-size: 1rem; }
   object-position: center top;
   background: var(--color-bg);
 }
+.surgeon-card-photo-blank {
+  width: 100%;
+  height: 260px;
+  background: var(--color-bg);
+}
 .surgeon-card-body {
   padding: 1.25rem 1.5rem 1.5rem;
 }
