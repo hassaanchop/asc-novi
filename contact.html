@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Us | Bone &amp; Joint Surgery Center of Novi</title>
+  <meta name="description" content="Contact Bone and Joint Surgery Center of Novi — send a message, call our team, or get directions to our Novi, MI facility." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,700;1,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <div id="nav-root"></div>
+
+  <!-- Page Hero -->
+  <section class="page-hero">
+    <div class="container">
+      <span class="section-label">We're Here to Help</span>
+      <h1>Contact Us</h1>
+      <p>Have a question? Want to learn more about a procedure? Our friendly care team is ready to assist you — reach out in whatever way is most comfortable for you.</p>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="section section--white">
+    <div class="container">
+      <div class="contact-grid">
+
+        <!-- Left: Form -->
+        <div>
+          <div class="contact-form">
+            <h3>Send Us a Message</h3>
+            <form id="contact-form" novalidate>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="first-name">First Name <span aria-hidden="true" style="color:#c53030;">*</span></label>
+                  <input type="text" id="first-name" name="first-name" autocomplete="given-name" required placeholder="Jane" />
+                </div>
+                <div class="form-group">
+                  <label for="last-name">Last Name <span aria-hidden="true" style="color:#c53030;">*</span></label>
+                  <input type="text" id="last-name" name="last-name" autocomplete="family-name" required placeholder="Smith" />
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="email">Email Address <span aria-hidden="true" style="color:#c53030;">*</span></label>
+                <input type="email" id="email" name="email" autocomplete="email" required placeholder="jane@example.com" />
+              </div>
+              <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" autocomplete="tel" placeholder="(248) 000-0000" />
+              </div>
+              <div class="form-group">
+                <label for="reason">Reason for Contact</label>
+                <select id="reason" name="reason">
+                  <option value="">Select a reason…</option>
+                  <option value="general">General Question</option>
+                  <option value="scheduling">Scheduling / Appointment</option>
+                  <option value="billing">Billing / Insurance Question</option>
+                  <option value="preparing">Preparing for Surgery</option>
+                  <option value="employment">Employment Inquiry</option>
+                  <option value="other">Other</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="message">Message <span aria-hidden="true" style="color:#c53030;">*</span></label>
+                <textarea id="message" name="message" required placeholder="How can we help you?"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary" style="width:100%;justify-content:center;">
+                Send Message
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+              </button>
+              <div class="form-success" id="form-success" role="alert">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="vertical-align:middle;margin-right:.4rem;"><polyline points="20 6 9 17 4 12"/></svg>
+                Thank you! Your message has been received. We'll be in touch shortly.
+              </div>
+            </form>
+          </div>
+
+          <div class="callout-box" style="margin-top:1.25rem;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/>
+            </svg>
+            <p>For urgent medical questions or emergencies, please call <strong><a href="tel:2486621500" style="color:var(--color-primary);">248-662-1500</a></strong> directly rather than submitting a form.</p>
+          </div>
+        </div>
+
+        <!-- Right: Info Cards + Map -->
+        <div>
+          <div class="contact-info-card">
+            <h4>
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/>
+              </svg>
+              Our Location
+            </h4>
+            <address>
+              Bone &amp; Joint Surgery Center of Novi<br />
+              26750 Providence Parkway<br />
+              Suite 100<br />
+              Novi, MI 48374
+            </address>
+            <a href="https://maps.google.com/?q=26750+Providence+Parkway+Suite+100+Novi+MI+48374" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm" style="margin-top:1rem;display:inline-flex;">Get Directions</a>
+          </div>
+
+          <div class="contact-info-card">
+            <h4>
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+              </svg>
+              Phone
+            </h4>
+            <p>
+              <a href="tel:2486621500">248-662-1500</a><br />
+              <span style="font-size:.82rem;color:var(--color-text-muted);">Monday – Friday, 8:00 AM – 5:00 PM</span>
+            </p>
+          </div>
+
+          <div class="contact-info-card">
+            <h4>
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/>
+              </svg>
+              Hours of Operation
+            </h4>
+            <p>
+              <strong>Administrative Office:</strong><br />
+              Monday – Friday: 8:00 AM – 5:00 PM<br /><br />
+              <strong>Surgical Hours:</strong><br />
+              Monday – Friday: 6:00 AM – 5:00 PM<br />
+              <span style="font-size:.82rem;color:var(--color-text-muted);">(Procedure times are assigned by your surgical team)</span><br /><br />
+              <strong>After-Hours Emergencies:</strong><br />
+              Contact your surgeon's answering service or call 911
+            </p>
+          </div>
+
+          <div class="contact-info-card" style="background:var(--color-accent);border-color:var(--color-accent-border);">
+            <h4>
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <rect x="1" y="4" width="22" height="16" rx="2" ry="2"/><line x1="1" y1="10" x2="23" y2="10"/>
+              </svg>
+              Pay Your Bill
+            </h4>
+            <p>Need to pay a balance? Use our secure online payment portal.</p>
+            <a href="https://secure.epayhealthcare.com/bjn568epay" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm" style="margin-top:.85rem;display:inline-flex;">Pay Online</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Map -->
+  <section style="background:var(--color-bg);">
+    <div class="container" style="padding-block:0;padding-bottom:3.5rem;">
+      <iframe
+        class="map-embed"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2942.334!2d-83.485!3d42.465!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8824b3a5f7c12345%3A0xabcdef1234567890!2s26750%20Providence%20Pkwy%20Suite%20100%2C%20Novi%2C%20MI%2048374!5e0!3m2!1sen!2sus!4v1700000000000!5m2!1sen!2sus"
+        allowfullscreen
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+        title="Map showing 26750 Providence Parkway Suite 100 Novi MI 48374"
+      ></iframe>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="logo">Bone &amp; Joint Surgery Center of Novi</div>
+          <p>A patient-centered ambulatory surgery center providing expert orthopedic and surgical care in a warm, welcoming environment.</p>
+          <div class="footer-award">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+            </svg>
+            Detroit Free Press Top Workplaces 2020–2024
+          </div>
+        </div>
+        <div class="footer-col">
+          <h5>Quick Links</h5>
+          <a href="about.html">About Us</a>
+          <a href="preparing.html">Preparing for Surgery</a>
+          <a href="patients.html">Patient Information</a>
+          <a href="billing.html">Insurance &amp; Billing</a>
+          <a href="contact.html">Contact Us</a>
+          <a href="https://secure.epayhealthcare.com/bjn568epay" target="_blank" rel="noopener noreferrer">Pay Your Bill</a>
+        </div>
+        <div class="footer-col">
+          <h5>Contact</h5>
+          <address>
+            26750 Providence Parkway<br />
+            Suite 100<br />
+            Novi, MI 48374
+          </address>
+          <a href="tel:2486621500">248-662-1500</a>
+          <a href="contact.html">Send Us a Message</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2024 Bone and Joint Surgery Center of Novi. All rights reserved.</p>
+        <a href="contact.html">Privacy Policy</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="nav.js"></script>
+  <script>
+    /* Contact form — UI only, no backend */
+    document.getElementById('contact-form').addEventListener('submit', function (e) {
+      e.preventDefault();
+
+      const first   = document.getElementById('first-name').value.trim();
+      const last    = document.getElementById('last-name').value.trim();
+      const email   = document.getElementById('email').value.trim();
+      const message = document.getElementById('message').value.trim();
+
+      if (!first || !last || !email || !message) {
+        /* Simple inline validation */
+        [
+          ['first-name',  first],
+          ['last-name',   last],
+          ['email',       email],
+          ['message',     message],
+        ].forEach(([id, val]) => {
+          const el = document.getElementById(id);
+          el.style.borderColor = val ? 'var(--color-border)' : '#c53030';
+        });
+        return;
+      }
+
+      /* Reset borders */
+      ['first-name','last-name','email','message'].forEach(id => {
+        document.getElementById(id).style.borderColor = '';
+      });
+
+      /* Show success message */
+      const form    = document.getElementById('contact-form');
+      const success = document.getElementById('form-success');
+      form.querySelectorAll('input, select, textarea, button[type=submit]').forEach(el => { el.disabled = true; });
+      success.style.display = 'block';
+    });
+  </script>
+</body>
+</html>
